@@ -15,8 +15,8 @@
   
   /* Navigation Bar */
   header {
-    background: #dc081d;
-    color: #fff;
+    background:  #e8cb9c;
+    color: #0a1726;
     padding: 10px 20px;
   }
   
@@ -44,7 +44,7 @@
   /* Hero Section */
   .hero {
     background: url('hero-bg.jpg') no-repeat center center/cover;
-    color: #fff;
+    color: #e39a08;
     padding: 60px 20px;
     text-align: center;
   }
