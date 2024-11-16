@@ -15,7 +15,7 @@
   
   /* Navigation Bar */
   header {
-    background:  #e8cb9c;
+    background:  #0a1726;
     color: #0a1726;
     padding: 10px 20px;
   }
@@ -35,7 +35,7 @@
   }
   
   nav ul li a {
-    color: #fff;
+    color: #e8cb9c;
     text-decoration: none;
     font-size: 16px;
     text-transform: uppercase;
@@ -44,7 +44,7 @@
   /* Hero Section */
   .hero {
     background: url('hero-bg.jpg') no-repeat center center/cover;
-    color: #e39a08;
+    color: #e8cb9c;
     padding: 60px 20px;
     text-align: center;
   }
@@ -174,7 +174,7 @@
   
   /* Footer Section */
   footer {
-    background-color: #333;
+    background-color: #0a1726;
     color: #fff;
     text-align: center;
     padding: 20px;
