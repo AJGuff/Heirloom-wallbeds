@@ -7,7 +7,7 @@
   
   /* Body and Global Styles */
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Body text font */
     line-height: 1.6;
     color: #0a1726;
     background-color: #0a1726;
@@ -21,12 +21,21 @@
   }
   
   nav .logo h1 {
+  font-family: 'Playfair Display', serif; /* Heading font */
+  font-weight: 700; /* Ensure headings are bold */
     display: inline-block;
+    
   }
   
   nav ul {
+    font-family: 'Montserrat', sans-serif;
     list-style-type: none;
     float: right;
+  }
+  
+  nav .logo img {
+    width: 200px; /* Set a fixed width for the logo */
+    height: auto;
   }
   
   nav ul li {
@@ -35,7 +44,7 @@
   }
   
   nav ul li a {
-    color: #e8cb9c;
+    color: #fff;
     text-decoration: none;
     font-size: 16px;
     text-transform: uppercase;
@@ -60,7 +69,7 @@
   }
   
   .cta-btn {
-    background: #008CBA;
+    background: #746c64;
     color: #fff;
     padding: 12px 24px;
     text-decoration: none;
@@ -68,7 +77,7 @@
   }
   
   .cta-btn:hover {
-    background: #006f8a;
+    background: #222a34;
   }
   
   /* About Section */
@@ -128,14 +137,14 @@
   
   .product-card .btn {
     text-decoration: none;
-    background-color: #008CBA;
+    background-color: #222a34;
     color: white;
     padding: 10px 20px;
     border-radius: 4px;
   }
   
   .product-card .btn:hover {
-    background-color: #006f8a;
+    background-color: #222a34;
   }
   
   /* Contact Section */
